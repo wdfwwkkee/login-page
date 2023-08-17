@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@600&display=swap');
+
+::placeholder{
+    color: #FFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    margin-top: 2em;
+    margin-inline: 3em;
+}
+
+body {
+    background: url(/img/fon.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigate > ol{
+    display: flex;
+    gap: 10px;
+}
+
+.navigate > ol > ul > a {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    position: absolute;
+    margin-left: 10em;
+    display: flex;
+}
+
+.search input {
+    background: none;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #FFF;
+    border-style:solid;
+}
+
+.background {
+    width: 1730px;
+    height: 500px;
+    background: url(/img/fon.jpg) no-repeat center center;
+    background-size: 60%;
+    background-position: center bottom;
+    margin-left: 5px;
+}
+
+.main-content {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    width: 1800px;
+    height: 500px;
+}
+
+.main-container{
+    width: 500px;
+}
+
+.main-container a{
+    color: #FFF;
+    font-size: 50px;
+}
+
+.logo {
+    margin: 1em;
+    margin-left: 2em;
+}
+
+.welcome .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 2em;
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+.social-sites {
+    display: flex;
+    margin-top: 1em;
+    gap: 10px;
+}
+
+.signIn-container {
+    width: 500px;
+    backdrop-filter: blur(10px);
+}
+
+.sign-In {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.signIn-content {
+    margin-top: 3em;
+    margin-inline: 2em;
+}
+
+.input-panel {
+    margin-top: 1em;
+}
+
+.input-panel input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    height: 100%;
+    border-top: 0.2px;
+    border-color: #FFF;
+    
+}
+
+.input-pass {
+    margin-top: 1em;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.forgot-pass a {
+    color: #FFF;
+}
+
+.button-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    height: 25px;
+    background: #fa0227;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.under-panel-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-panel-text a{
+    color: #FFF;
+    font-weight: bolder;
+}
